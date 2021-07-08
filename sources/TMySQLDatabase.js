@@ -45,8 +45,8 @@ class TMySQLDatabase extends TAbstractDatabase {
                 throw err
             }
 
-            console.log( 'The solution is: ', rows[ 0 ].solution )
-            console.log( 'The fields is: ', fields )
+            this.logger.log( 'The solution is: ', rows[ 0 ].solution )
+            this.logger.log( 'The fields is: ', fields )
         } )
 
         connection.end()
