@@ -1,4 +1,4 @@
-console.log('Itee.Database.MySQL v1.0.2 - EsModule')
+console.log('Itee.Database.MySQL v1.0.3 - EsModule')
 import * as MySQLDriver from 'mysql';
 import { TAbstractDatabase } from 'itee-database';
 
